@@ -1,0 +1,15 @@
+package com.prova.categoriaProduto;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class CategoriaProdutoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CategoriaProdutoApplication.class, args);
+	}
+
+}
